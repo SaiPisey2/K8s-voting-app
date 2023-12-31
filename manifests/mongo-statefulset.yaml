@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: mongo
-  namespace: cloudchamp
+  namespace: voting
 spec:
   serviceName: mongo
   replicas: 3
